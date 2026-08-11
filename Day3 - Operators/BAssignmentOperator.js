@@ -41,6 +41,17 @@ a6 %= b6; // also known as a5 = a6 %   b6;
 console.log("The Output of Modulus and Store within the same Operator as follows", a6);
 
 
+var numberA = 56;
+var numberB = 56;
+numberA =+ numberA; 
+numberA = numberA+numberA; // Compact Notation 
+
+
+/*
+E-Commerace Project ---
+
+/
+
 
 
 

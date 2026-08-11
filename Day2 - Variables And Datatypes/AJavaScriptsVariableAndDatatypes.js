@@ -21,7 +21,7 @@ console.log("Printing the value of boolean Variable within the browser console a
  
 ---------------- const----------------------------------------------
 const is the Variable where once we assign the value we cant change it
-const fixedValue = 89;
+const fixedValue = 89; 
 console.log('The value of const fixedValue as follows', fixedValue);
 fixedValue = 90; // we have tried to re-assign value to fixedValue as 90
 console.log('The updated value of const fixedValue as follows', fixedValue);  // it throw error as TypeError: Assignment to constant variable.at Object.<anonymous> (F:\JavaScript Learning\Day2 - Variables And Datatypes\AJavaScriptsVariableAndDatatypes.js:65:12)
@@ -88,10 +88,10 @@ testVarInside(); testVarOutside();
 // 📊 Summary Table
 // Feature	        var	                                let	                                const
 // Scope	        Function-scoped	                    Block-scoped	                    Block-scoped
-// Hoisting	    Hoisted + undefined	                Hoisted but TDZ → ReferenceError	Hoisted but TDZ → ReferenceError
+// Hoisting	        Hoisted + undefined	                Hoisted but TDZ → ReferenceError	Hoisted but TDZ → ReferenceError
 // Redeclaration	Allowed	                            Not allowed	                        Not allowed
-// Reassignment	Allowed	                            Allowed	                            ❌ Not allowed
-// Default Value	undefined	                        undefined	                        Must be initialized
+// Reassignment	    Allowed	                            Allowed	                            ❌ Not allowed
+/ /Default Value	undefined	                        undefined	                        Must be initialized
 
 */
 
