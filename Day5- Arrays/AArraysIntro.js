@@ -29,3 +29,22 @@ for (let i = 0 ; i<a.length;i++)
 console.log(a[i]); // To Print entire Array use for loop
 
 }
+    console.log("Constant "); // To Print entire Array use for loop
+
+for (const arrNew of a)
+{
+    console.log(arrNew); // To Print entire Array use for loop
+
+}
+    console.log("While Loop"); // To Print entire Array use for loop
+
+
+let y = 0; 
+while(y<a.length)
+{
+       console.log(a[y]); // To Print entire Array use for loop
+         y++;
+
+
+
+}

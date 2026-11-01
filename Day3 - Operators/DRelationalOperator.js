@@ -8,6 +8,7 @@
     >= Greater Than or Equal To 
     == Equal To
      != Not Equal To
+     === Data Type Check 
      
   4.To Run JavaScript 
     Open the Terminal  
@@ -34,3 +35,7 @@
     console.log(11 == 11); 
     console.log("6. Not Equal To (!=)"); 
     console.log(10 != 20);
+     console.log("7. Data Type Check (===) as True"); 
+    console.log(11 === 11); 
+   console.log("8. Data Type Check (===) as False"); 
+  console.log("11" === 11); 

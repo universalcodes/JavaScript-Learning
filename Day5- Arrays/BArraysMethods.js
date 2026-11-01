@@ -62,14 +62,20 @@ console.log(validateInValidElement); // To Print Complete Array  toString() is t
 
 console.log('Add the Element to first Index use unshift() Method');
 console.log('Before Unshift :Updated arrays as follows\t'+a);
-a.unshift(178);
+a.unshift(3443)
 console.log('After Unshift :Updated arrays as follows\t'+a);
 
 
 console.log('Remove the Element from first Index use shift() Method');
 console.log('Before shift :Updated arrays as follows\t'+a);
-a.shift();
+a.shift()
 console.log('After shift :Updated arrays as follows\t'+a);
+
+
+console.log('To Find the Element Use find()');
+console.log('Before find :Updated arrays as follows\t'+a);
+a.filter(718)
+console.log('After find :Updated arrays as follows\t'+a);
 
 
 
