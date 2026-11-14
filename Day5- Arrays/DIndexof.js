@@ -40,18 +40,22 @@ console.log(indexReturn5);
 
 
 console.log('Example 6');
-var nameUser6 = 'Testing'; // 0,1,2,3,4,5
+var nameUser6 = 'Asus'; // 0,1,2,3,4,5
 console.log(nameUser6);
 console.log(nameUser6.length);
-var indexReturn6 = nameUser6.indexOf('Testing');
+var indexReturn6 = nameUser6.indexOf('Asus');
 console.log(indexReturn6);
 
 console.log('Example 7');
 var nameUser7 = 'Testing'; // 0,1,2,3,4,5
 console.log(nameUser7);
 console.log(nameUser7.length);
-var indexReturn7 = nameUser7.indexOf('Besting');
+var indexReturn7 = nameUser7.indexOf('TestData');
+var indexReturn8 = nameUser7.indexOf('TestinG');
 console.log(indexReturn7);
+console.log(indexReturn8);
+
+
 
 
 console.log('Example 8');
@@ -64,10 +68,10 @@ console.log(indexReturn8);
 
 
 console.log('Example 9');
-var nameUser9 = 'This is Cool Testing'; // 0,1,2,3,4,5
+var nameUser9 = 'This is JavaScript'; // 0,1,2,3,4,5
 console.log(nameUser9);
 console.log(nameUser9.length);
-var indexReturn9 = nameUser9.indexOf('Cool');
+var indexReturn9 = nameUser9.indexOf('JavaScript');
 console.log(indexReturn9);
 
 
@@ -77,6 +81,52 @@ console.log(nameUser10);
 console.log(nameUser10.length);
 var indexReturn10 = nameUser10.indexOf('Fool');
 console.log(indexReturn10);
+
+
+
+
+console.log('Example 11');
+var nameUser11 ='CoolColdCat';
+console.log(nameUser11);
+console.log(nameUser11.length);
+var indexReturn11 = nameUser11.indexOf('C');
+console.log(indexReturn11);
+var indexReturn12 = nameUser11.indexOf('C', 1);
+console.log(indexReturn12);
+var indexReturn13 = nameUser11.indexOf('C', 5);
+console.log(indexReturn13);
+var indexReturn14 = nameUser11.indexOf('C', 9);
+console.log(indexReturn14);
+
+
+console.log('Example 12');
+var nameUser11 ='This is CoolColdCat';
+console.log(nameUser11);
+console.log(nameUser11.length);
+var indexReturn11 = nameUser11.indexOf('C');
+console.log(indexReturn11);
+var indexReturn12 = nameUser11.indexOf('C', 9);
+console.log(indexReturn12);
+// var indexReturn13 = nameUser11.indexOf('C', 5);  // Debugging purpose
+// console.log(indexReturn13);
+var indexReturn14 = nameUser11.indexOf('C', 13);
+console.log(indexReturn14);
+
+
+
+//  Invalid Use Case
+var number = 1234;
+console.log(number);
+console.log(number.length);
+var indexNumber = nameUser11.indexOf(2);
+console.log(indexNumber);
+
+
+
+
+
+
+
 
 
 
